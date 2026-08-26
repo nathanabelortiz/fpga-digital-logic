@@ -1,0 +1,24 @@
+# Quartus generated files and directories
+db/
+incremental_db/
+output_files/
+simulation/
+
+# Generated Quartus files
+*.qdf
+*.rpt
+*.smsg
+*.sof
+*.pof
+*.jdi
+*.done
+*.summary
+
+# Temporary / backup files
+*.bak
+*.tmp
+*.log
+
+# OS files
+Thumbs.db
+.DS_Store
