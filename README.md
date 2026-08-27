@@ -33,11 +33,35 @@ The design accepts two 4-bit operands and an external carry-in, producing a 4-bi
 
 More FPGA projects will be added as they are reconstructed, verified, and documented.
 
+### NAND-Based D Flip-Flop
+
+A clocked storage element implemented using interconnected NAND gates.
+
+The design captures the `D` input on the active clock edge and provides complementary `Q` and `Qn` outputs. It was recompiled in Quartus Prime Lite 25.1 and functionally verified through representative clock and data transitions.
+
+[View the D Flip-Flop](DFF/)
+
+### 4-Bit Hexadecimal-to-Seven-Segment Decoder
+
+A combinational decoder that converts a 4-bit hexadecimal input into seven active-low segment control signals for a seven-segment display.
+
+The design was recompiled in Quartus Prime Lite 25.1 and exhaustively functionally verified across all 16 possible input combinations from `0x0` through `0xF`.
+
+[View the Seven-Segment Decoder](HEX7/)
+
+### Two-Way Traffic Light Controller
+
+A sequential traffic-light controller that manages red, yellow, and green outputs for two directions using JK flip-flops and combinational logic.
+
+The recovered design was reconstructed in Quartus Prime Lite 25.1, recompiled with 0 errors, and functionally simulated to demonstrate both A-side and B-side green-to-yellow transitions.
+
+The design also integrates the reusable hexadecimal-to-seven-segment decoder as a submodule.
+
+[View the Traffic Light Controller](Traffic-Light-Controller/)
+
 ## Planned Projects
 
-- NAND-Based D Flip-Flop
 - Boolean-Minimized Logic Circuit
-- Seven-Segment Decoder
 - Binary Counter
 
 ## Verification Approach
