@@ -62,3 +62,11 @@ fpga-digital-logic/
 ├── boolean-minimization/
 ├── seven-segment-decoder/
 └── counter/
+
+```
+
+## Portfolio
+
+Additional engineering projects are available at:
+
+**https://nortiz01.github.io**
