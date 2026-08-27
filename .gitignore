@@ -13,6 +13,7 @@ simulation/
 *.jdi
 *.done
 *.summary
+*.qws
 
 # Temporary / backup files
 *.bak
