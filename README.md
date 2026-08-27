@@ -23,11 +23,18 @@ The design was successfully recompiled in Quartus Prime Lite 25.1 and functional
 
 [View the 1-Bit Full Adder](1-bit-full-adder/)
 
+### 4-Bit Ripple-Carry Full Adder
+
+A 4-bit binary adder constructed by cascading four reusable 1-bit full-adder blocks.
+
+The design accepts two 4-bit operands and an external carry-in, producing a 4-bit sum and final carry-out. It was successfully recompiled in Quartus Prime Lite 25.1 and functionally verified through representative addition and carry-propagation test cases.
+
+[View the 4-Bit Full Adder](4-bit-full-adder/)
+
 More FPGA projects will be added as they are reconstructed, verified, and documented.
 
 ## Planned Projects
 
-- 4-Bit Full Adder
 - NAND-Based D Flip-Flop
 - Boolean-Minimized Logic Circuit
 - Seven-Segment Decoder
